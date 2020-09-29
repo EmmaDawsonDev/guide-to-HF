@@ -9,6 +9,8 @@ font-family: 'Inter', sans-serif;
 font-family: 'Nunito', sans-serif;
 */
 
+/*General styles which affect all pages and elements*/
+
 body {
   margin: 0;
   padding: 0;
@@ -26,6 +28,16 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Inter', sans-serif;
+  border-bottom: 2px solid transparent;
+  transition: transform 330ms ease-in-out;
+}
+
+
+
+a {
+  text-decoration: none;
+  color: #ff8ae2;
+  font-weight: bold;
 }
 
 h1 {
@@ -133,4 +145,39 @@ nav a:hover, .nav-active {
 
 h3 {
   margin-bottom: 0;
+}
+
+/*Contributions page*/
+.contribute-card {
+  text-decoration: none;
+  color: #9C4668;
+  font-size: 2.5rem;
+ font-weight: bold;
+}
+
+ol {
+  text-align: left;
+  max-width: 500px;
+  margin: 40px auto;
+  
+}
+
+.page h3 {
+  margin-top: 40px;
+  font-size: 2rem;
+}
+
+.page li+li {
+  margin-top: 20px;
+}
+
+.how-to {
+  border: 2px solid #ff8ae2;
+  padding: 10px;
+  max-width: 600px;
+  margin: 40px auto;
+}
+
+.interested {
+  margin-bottom: 50px;
 }
