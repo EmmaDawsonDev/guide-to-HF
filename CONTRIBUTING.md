@@ -16,3 +16,4 @@ The only prerequisite is that you add a link back to the homepage (index.html) f
 
 RULES: 
 - No explicit content
+- Any images should be optimized for web
