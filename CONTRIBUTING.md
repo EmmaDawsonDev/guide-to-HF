@@ -10,7 +10,7 @@ or
 
 2) Within the experiences folder create your own page to add to the Super-Newbie's guide with tips, tricks and what you've learnt/your experience of Hacktoberfest (think like an article or blog post). You can even create your own CSS stylesheet. 
 
-Name your files Fname-Lname.html and Fname-Lname.css so they are easy for me to keep track of :)
+Name your files Your-name.html and Your-name.css so they are easy for me to keep track of :)
 
 The only prerequisite is that you add a link back to the homepage (index.html) file at the top of your page. Then make your Pull Request. We will then add a link to your page from the homepage so that everyone can read about your experiences.
 
