@@ -31,8 +31,10 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
   text-align: center;
   font-size: 3rem;
+}
 
-  
+h2 {
+  font-size: 2.5rem;
 }
 
 h1 #the {
@@ -104,9 +106,11 @@ nav a:hover, .nav-active {
   margin: 40px 5px;
   padding: 15px;
   max-width: 180px;
-  background-color: #93c2db;
+  background-color: #ffffff;
   border-radius: 10px;
-  color: #072540;
+  transform: scale(0.9);
+  transition: transform 330ms ease-in-out;
+  
 }
 
 .card img {
@@ -114,3 +118,13 @@ nav a:hover, .nav-active {
   border-radius: 5px;
 }
 
+.card a {
+  color: #072540;
+  text-decoration: none;
+}
+
+.card:hover,
+.card:focus {
+  transform: scale(1);
+  transition: transform 330ms ease-in-out;
+}
