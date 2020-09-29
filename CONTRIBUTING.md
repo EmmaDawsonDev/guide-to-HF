@@ -17,3 +17,4 @@ The only prerequisite is that you add a link back to the homepage (index.html) f
 RULES: 
 - No explicit content
 - Any images should be optimized for web
+- Changes made to index.html and styles.css will be marked as invalid unless you raise an issue and get the go ahead first before making your pull request.
