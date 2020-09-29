@@ -43,6 +43,7 @@ a {
 h1 {
   text-align: center;
   font-size: 3rem;
+  line-height: 4.5rem;
 }
 
 h2 {
@@ -50,7 +51,7 @@ h2 {
 }
 
 h1 #the {
-  font-size: 1rem;
+  font-size: 2rem;
   letter-spacing: 1rem;
   
   
