@@ -21,6 +21,7 @@ font-family: 'Inter', sans-serif;
 font-family: 'Nunito', sans-serif;
 */
 
+
 /*General styles which affect all pages and elements*/
 
 body {
@@ -31,11 +32,12 @@ body {
   color: var(--text-color-lt);
   font-family: var(--font-normal);
   color: var(--text-color-lt);
+
 }
 
 .container {
-  max-width: 1000px;
-  margin: 0 auto;
+    max-width: 1000px;
+    margin: 0 auto;
 }
 
 h1,
@@ -50,7 +52,7 @@ h6 {
 }
 
 img {
-  max-width: 100%;
+    max-width: 100%;
 }
 
 a {
@@ -60,17 +62,17 @@ a {
 }
 
 h1 {
-  text-align: center;
-  font-size: 3rem;
+    text-align: center;
+    font-size: 3rem;
 }
 
 h2 {
-  font-size: 2.5rem;
+    font-size: 2.5rem;
 }
 
 h1 #the {
-  font-size: 1rem;
-  letter-spacing: 1rem;
+    font-size: 1rem;
+    letter-spacing: 1rem;
 }
 
 h1 #super {
@@ -78,40 +80,48 @@ h1 #super {
   text-transform: lowercase;
   font-size: 5rem;
   line-height: 0.7;
+
 }
 
 p {
-  max-width: 700px;
-  margin: 0 auto;
-  padding-top: 1em;
-  line-height: 1.6;
+    max-width: 700px;
+    margin: 0 auto;
+    padding-top: 1em;
+    line-height: 1.6;
 }
 
 section {
-  text-align: center;
-  padding-top: 50px;
+    text-align: center;
+    padding-top: 50px;
 }
 
 section:last-of-type {
-  margin-bottom: 50px;
+    margin-bottom: 50px;
 }
 
+
 /*Navigation styling*/
-ul {
-  display: flex;
-  list-style: none;
-  justify-content: space-around;
-  margin: 0;
-  padding: 0;
+#content {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+}
+
+#bars {
+    padding-top: 20px;
+    display: none;
 }
 
 nav li {
-  margin: 20px;
+    margin: 20px;
 }
 
 nav a {
-  color: white;
-  text-decoration: none;
+    color: white;
+    text-decoration: none;
+
 }
 
 nav a:hover,
@@ -125,10 +135,11 @@ nav a:hover,
 }
 
 /* Card styling*/
+
 .cards {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
 .card {
@@ -142,9 +153,9 @@ nav a:hover,
 }
 
 .card img {
-  max-width: 100%;
-  border-radius: 5px;
-  display: block;
+    max-width: 100%;
+    border-radius: 5px;
+    display: block;
 }
 
 .card a {
@@ -154,15 +165,17 @@ nav a:hover,
 
 .card:hover,
 .card:focus {
-  transform: scale(1);
-  transition: transform 330ms ease-in-out;
+    transform: scale(1);
+    transition: transform 330ms ease-in-out;
 }
 
 h3 {
-  margin-bottom: 0;
+    margin-bottom: 0;
 }
 
+
 /*Contributions page*/
+
 .contribute-card {
   text-decoration: none;
   color: var(--highlight-dk);
@@ -177,8 +190,8 @@ ol {
 }
 
 .page h3 {
-  margin-top: 40px;
-  font-size: 2rem;
+    margin-top: 40px;
+    font-size: 2rem;
 }
 
 .page li + li {
@@ -192,8 +205,8 @@ ol {
   margin: 40px auto;
 }
 
-/*Fork code page*/
 
+/*Fork code page*/
 .fork-clone-code li + li {
   margin-top: 40px;
 }
@@ -201,3 +214,19 @@ ol {
 .GH-img {
   margin-top: 20px;
 }
+
+
+@media (max-width: 730px) {
+    #bars {
+        position: absolute;
+        top: 0%;
+        right: 10%;
+        display: block;
+    }
+    #content {
+        display: none;
+        text-align: center;
+        padding-top: 50px;
+    }
+}
+
