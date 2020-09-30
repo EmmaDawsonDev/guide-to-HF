@@ -205,10 +205,10 @@ ol {
 
 @media (max-width: 730px) {
     #bars {
+        position: absolute;
+        top: 0%;
+        right: 10%;
         display: block;
-        float: right;
-        margin-right: 20px;
-        margin-top: -10px;
     }
     #content {
         display: none;
