@@ -32,7 +32,9 @@ h1, h2, h3, h4, h5, h6 {
   transition: transform 330ms ease-in-out;
 }
 
-
+img {
+  max-width: 100%;
+}
 
 a {
   text-decoration: none;
@@ -74,6 +76,10 @@ p {
 section {
   text-align: center;
   padding-top: 50px;
+}
+
+section:last-of-type {
+  margin-bottom: 50px;
 }
 
 /*Navigation styling*/
@@ -178,6 +184,12 @@ ol {
   margin: 40px auto;
 }
 
-.interested {
-  margin-bottom: 50px;
+/*Fork code page*/
+
+.fork-clone-code li+li {
+  margin-top: 40px;
+}
+
+.GH-img {
+  margin-top: 20px;
 }
