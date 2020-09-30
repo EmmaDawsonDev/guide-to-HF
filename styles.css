@@ -1,3 +1,15 @@
+:root {
+  --bg-color: #072540;
+  --bg-color-lt: #ffffff;
+  --text-color-lt: #ffffff;
+  --text-color-dk: #072540;
+  --highlight-lt: #ff8ae2;
+  --highlight-dk: #9c4668;
+
+  --font-header: "Inter", sans-serif;
+  --font-normal: "Nunito", sans-serif;
+}
+
 /*
 Colors:
 dark red: #9C4668
@@ -13,13 +25,14 @@ font-family: 'Nunito', sans-serif;
 /*General styles which affect all pages and elements*/
 
 body {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    background-color: #072540;
-    color: #ffffff;
-    font-family: 'Nunito', sans-serif;
-    color: #ffffff;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: var(--bg-color);
+  color: var(--text-color-lt);
+  font-family: var(--font-normal);
+  color: var(--text-color-lt);
+
 }
 
 .container {
@@ -33,9 +46,9 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Inter', sans-serif;
-    border-bottom: 2px solid transparent;
-    transition: transform 330ms ease-in-out;
+  font-family: var(--font-header);
+  border-bottom: 2px solid transparent;
+  transition: transform 330ms ease-in-out;
 }
 
 img {
@@ -43,9 +56,9 @@ img {
 }
 
 a {
-    text-decoration: none;
-    color: #ff8ae2;
-    font-weight: bold;
+  text-decoration: none;
+  color: var(--highlight-lt);
+  font-weight: bold;
 }
 
 h1 {
@@ -63,10 +76,11 @@ h1 #the {
 }
 
 h1 #super {
-    color: #ff8ae2;
-    text-transform: lowercase;
-    font-size: 5rem;
-    line-height: 0.7;
+  color: var(--highlight-lt);
+  text-transform: lowercase;
+  font-size: 5rem;
+  line-height: 0.7;
+
 }
 
 p {
@@ -87,7 +101,6 @@ section:last-of-type {
 
 
 /*Navigation styling*/
-
 #content {
     display: flex;
     list-style: none;
@@ -108,18 +121,18 @@ nav li {
 nav a {
     color: white;
     text-decoration: none;
+
 }
 
 nav a:hover,
 .nav-active {
-    padding: 1.4em 1.3em 0.8em;
-    font-weight: bold;
-    color: #9C4668;
-    background-color: #ffffff;
-    border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 5px;
+  padding: 1.4em 1.3em 0.8em;
+  font-weight: bold;
+  color: var(--highlight-dk);
+  background-color: var(--bg-color-lt);
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
 }
-
 
 /* Card styling*/
 
@@ -130,13 +143,13 @@ nav a:hover,
 }
 
 .card {
-    margin: 40px 5px;
-    padding: 15px;
-    max-width: 180px;
-    background-color: #ffffff;
-    border-radius: 10px;
-    transform: scale(0.9);
-    transition: transform 330ms ease-in-out;
+  margin: 40px 5px;
+  padding: 15px;
+  max-width: 180px;
+  background-color: var(--bg-color-lt);
+  border-radius: 10px;
+  transform: scale(0.9);
+  transition: transform 330ms ease-in-out;
 }
 
 .card img {
@@ -146,8 +159,8 @@ nav a:hover,
 }
 
 .card a {
-    color: #072540;
-    text-decoration: none;
+  color: var(--text-color-dk);
+  text-decoration: none;
 }
 
 .card:hover,
@@ -164,16 +177,16 @@ h3 {
 /*Contributions page*/
 
 .contribute-card {
-    text-decoration: none;
-    color: #9C4668;
-    font-size: 2.5rem;
-    font-weight: bold;
+  text-decoration: none;
+  color: var(--highlight-dk);
+  font-size: 2.5rem;
+  font-weight: bold;
 }
 
 ol {
-    text-align: left;
-    max-width: 500px;
-    margin: 40px auto;
+  text-align: left;
+  max-width: 500px;
+  margin: 40px auto;
 }
 
 .page h3 {
@@ -181,27 +194,27 @@ ol {
     font-size: 2rem;
 }
 
-.page li+li {
-    margin-top: 20px;
+.page li + li {
+  margin-top: 20px;
 }
 
 .how-to {
-    border: 2px solid #ff8ae2;
-    padding: 10px;
-    max-width: 600px;
-    margin: 40px auto;
+  border: 2px solid var(--highlight-lt);
+  padding: 10px;
+  max-width: 600px;
+  margin: 40px auto;
 }
 
 
 /*Fork code page*/
-
-.fork-clone-code li+li {
-    margin-top: 40px;
+.fork-clone-code li + li {
+  margin-top: 40px;
 }
 
 .GH-img {
-    margin-top: 20px;
+  margin-top: 20px;
 }
+
 
 @media (max-width: 730px) {
     #bars {
@@ -216,3 +229,4 @@ ol {
         padding-top: 50px;
     }
 }
+
