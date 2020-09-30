@@ -15,6 +15,9 @@ or
 The only prerequisite is that you add a link back to the homepage (index.html) file at the top of your page. Then make your Pull Request. We will then add a link to your page from the homepage so that everyone can read about your experiences.
 
 ### ** RULES **: 
+
 **-** No explicit content
+
 **-** Any images should be optimized for web
+
 **-** Changes made to index.html and styles.css will be marked as invalid unless you raise an issue and get the go ahead first before making your pull request.
