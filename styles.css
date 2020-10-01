@@ -230,3 +230,9 @@ ol {
     }
 }
 
+@media screen and (max-width: 600px) {
+  p {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+}
