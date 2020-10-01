@@ -1,5 +1,7 @@
 ## 🎃 Hacktoberfest Guide 🎃  
 
+This repo is hosted at https://emmalearnscode.github.io/guide-to-HF/index.html
+
 Welcome to the Super-Newbie Coder's Guide to Hacktoberfest!
 
 If this is your first time completing Hacktoberfest and you know the basics of HTML, CSS and maybe a little Javascript then this is the place for you!
