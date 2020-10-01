@@ -121,12 +121,11 @@ nav li {
 nav a {
     color: white;
     text-decoration: none;
-
+    padding: 1.4em 1.3em 0.8em;
 }
 
 nav a:hover,
 .nav-active {
-  padding: 1.4em 1.3em 0.8em;
   font-weight: bold;
   color: var(--highlight-dk);
   background-color: var(--bg-color-lt);
