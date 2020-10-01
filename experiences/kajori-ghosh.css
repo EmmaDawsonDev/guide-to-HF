@@ -1,0 +1,24 @@
+body {
+    background-color: lightblue;
+  }
+  body
+  {border-style: solid;
+    text-align: center;
+   }
+   h1{
+      color: blue; 
+   }
+   button {
+    display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+  }
