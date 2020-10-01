@@ -99,6 +99,9 @@ section:last-of-type {
     margin-bottom: 50px;
 }
 
+code {
+  background-color: #9c4668;
+}
 
 /*Navigation styling*/
 #content {
