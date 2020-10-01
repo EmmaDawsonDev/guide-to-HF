@@ -63,7 +63,7 @@ a {
 
 h1 {
     text-align: center;
-    font-size: 3rem;
+    font-size: clamp(2rem, 4.5vmax, 3rem);
 }
 
 h2 {
@@ -78,7 +78,7 @@ h1 #the {
 h1 #super {
   color: var(--highlight-lt);
   text-transform: lowercase;
-  font-size: 5rem;
+  font-size: clamp(4.2rem, 7vmax, 5rem);
   line-height: 0.7;
 
 }
