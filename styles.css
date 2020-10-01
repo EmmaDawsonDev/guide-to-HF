@@ -216,17 +216,31 @@ ol {
 
 
 @media (max-width: 730px) {
-    #bars {
-        position: absolute;
-        top: 0%;
-        right: 10%;
-        display: block;
-    }
-    #content {
-        display: none;
-        text-align: center;
-        padding-top: 50px;
-    }
+  #bars {
+    position: absolute;
+    top: 0%;
+    right: 10%;
+    display: block;
+  }
+  #content {
+    display: none;
+    text-align: center;
+    padding-top: 50px;
+  }
+
+  nav li {
+    margin: 0;
+  }
+  
+  nav a {
+    display: block;
+    padding: 1em;
+  }
+  
+  .nav-active {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+  }
 }
 
 @media screen and (max-width: 600px) {
