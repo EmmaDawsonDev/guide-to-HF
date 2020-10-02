@@ -1,17 +1,17 @@
 body {
-    background-color: lightblue;
+    background-color: red;
   }
   body
-  {border-style: solid;
+  {border-style: dashed;
     text-align: center;
    }
    h1{
-      color: blue; 
+      color: black; 
    }
    
 a:link, a:visited {
 
-  background-color: #f44336;
+  background-color: black;
 
   color: white;
 
@@ -22,11 +22,5 @@ a:link, a:visited {
   text-decoration: none;
 
   display: inline-block;
-
-}
-
-a:hover, a:active {
-
-  background-color: red;
 
 }
