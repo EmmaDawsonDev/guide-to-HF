@@ -12,7 +12,7 @@ or
 
 ### Name your files Your-name.html and Your-name.css so they are easy for me to keep track of :)
 
-The only prerequisite is that you add a link back to the homepage (index.html) file at the top of your page. Then make your Pull Request. We will then add a link to your page from the homepage so that everyone can read about your experiences.
+The only prerequisite is that you add a link back to the homepage (index.html) file at the top of your page. Then make your Pull Request. We will then manually add a link to your page from the homepage so that everyone can read about your experiences (this can take a while if there are many submissions, please be patient).
 
 ### Setting Upstream remotes for returning contributors
 
@@ -70,6 +70,6 @@ If anyone needs more detail to understand this, feel free to [@JacksonBates](htt
 
 **-** Any images should be optimized for web
 
-**-** Changes made to index.html and styles.css will be marked as invalid unless you raise an issue and get the go ahead first before making your pull request.
+**-** Changes made to any files (except the experience folder) will be marked as invalid unless you raise an issue and get the go ahead first before making your pull request.
 
 
