@@ -214,6 +214,12 @@ ol {
   margin-top: 20px;
 }
 
+/*Pull page*/
+#hf-label {
+ border-radius: 30px;
+ height: 15px;
+}
+
 
 @media (max-width: 730px) {
   #bars {
