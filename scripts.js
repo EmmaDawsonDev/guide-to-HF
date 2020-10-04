@@ -1,10 +1,7 @@
 var bars = document.getElementById('bars')
-var content = document.getElementById('content')
+var content = document.getElementById('content-mobile')
 
-bars.addEventListener('click', () => {
-    if (content.style.display === 'block') {
-        content.style.display = 'none'
-    } else {
-        content.style.display = 'block'
-    }
-})
+function openNav() {
+    content.classList.toggle('block');
+    content.classList.toggle('hidden');
+}

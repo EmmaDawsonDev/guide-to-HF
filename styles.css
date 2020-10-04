@@ -109,8 +109,26 @@ section:last-of-type {
     padding: 0;
 }
 
+.block {
+  display: none !important;
+}
+
+.hidden {
+  display: none !important;
+}
+
+#content-mobile {
+  text-align: center;
+  justify-content: space-around;
+  padding: 50px 0 0;
+  margin: 10px 0 0;
+  list-style: none;
+}
+
 #bars {
-    padding-top: 20px;
+    padding-top: 15px;
+    padding-left: 15px;
+    width: 40px;
     display: none;
 }
 
@@ -204,7 +222,6 @@ ol {
   margin: 40px auto;
 }
 
-
 /*Fork code page*/
 .fork-clone-code li + li {
   margin-top: 40px;
@@ -220,7 +237,6 @@ ol {
  height: 15px;
 }
 
-
 @media (max-width: 730px) {
   #bars {
     position: absolute;
@@ -228,10 +244,9 @@ ol {
     right: 10%;
     display: block;
   }
+
   #content {
     display: none;
-    text-align: center;
-    padding-top: 50px;
   }
 
   nav li {
@@ -246,6 +261,10 @@ ol {
   .nav-active {
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 0;
+  }
+
+  .block {
+    display: block !important;
   }
 }
 
