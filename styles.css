@@ -243,7 +243,7 @@ ol {
     padding: 1em;
   }
   
-  .nav-active {
+  .nav-active, nav a:hover {
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 0;
   }
