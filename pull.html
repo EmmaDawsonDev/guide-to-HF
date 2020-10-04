@@ -42,9 +42,12 @@
 
             <ol class="fork-clone-code">
                 <li>Make sure you are in the project working directory. To do that use the command <code>cd folder-name\folder-name</code></li>
-                <li>There are three commands you need to use in the following order <br><code>git add .</code> 
-                    <br> <code>git commit -m "Add a short message about the changes you made"</code> 
-                    <br> <code>git push</code></li>
+                <li>There are three commands you need to use in the following order 
+                    <br> <code>git checkout -b [name of your branch]</code>
+                    <br><code>git add .</code> 
+                    <br> <code>git commit -m "Add a short message about the changes you made"</code>
+                    <br> <code>git pull origin master</code>
+                    <br> <code>git push origin [your created branch]</code></li>
                     <img class="GH-img" src="./img/add-commit-push.png" alt="Command line showing how to add, commit and push files to a github repo">
             </ol>
 
