@@ -13,7 +13,7 @@ Take a look at the [Contributing](CONTRIBUTING.md) file for ways to contribute t
 - Navigate to the folder where you've saved your code
 
 #### To open the webpage in your browser and see your changes:
-a. Double click on index.html
-b. If using Terminal (on Mac) or Gitbash, type 'open index.html'
+- Double click on index.html
+- If using Terminal (on Mac) or Gitbash, type 'open index.html'
 
 If you need any help please feel free to contact me, I'm most easily reached on [Twitter](https://twitter.com/emmalearnscode) @emmalearnscode.
