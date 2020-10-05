@@ -1,0 +1,18 @@
+.content-body{
+    color: black;
+    font-family: cursive;
+}
+
+.content-body .title{
+    color: coral;
+    font-size: large;
+}
+
+h1{
+    color: coral;
+    font-family: cursive;
+}
+
+body{
+    background-image: linear-gradient(to right,yellow,green,blue,indigo,violet);
+}
