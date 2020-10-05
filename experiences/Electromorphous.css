@@ -1,0 +1,143 @@
+*,
+:before,
+:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: white;
+  color: black;
+  text-align: center;
+  font-family: "Roboto Slab", sans-serif;
+}
+
+body .container {
+  margin: 2rem 7rem;
+}
+
+body .container .button {
+  background: #4f31f7;
+  color: white;
+  font-size: 1.5rem;
+  text-align: center;
+  text-decoration: none;
+  padding: 5px 15px;
+  border-radius: 50px;
+}
+
+body .container .button:hover {
+  background: #5d6dff;
+}
+
+body .container .button:active {
+  background: #4f31f7;
+}
+
+body .container h1 {
+  font-size: 7rem;
+  color: #4f31f7;
+  margin: 20px;
+}
+
+body .container h2 {
+  font-size: 2rem;
+  font-weight: 300;
+  margin: 5px;
+}
+
+body .container p {
+  font-size: 1.2rem;
+}
+
+body .container h4 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-top: 30px;
+}
+
+body .container .card {
+  text-align: left;
+  border: 2px solid #4f31f7;
+  border-radius: 10px;
+  margin: 40px auto;
+  padding: 40px;
+  width: 60%;
+}
+
+body .container .card h1 {
+  font-size: 1.9rem;
+  font-weight: 400;
+  margin: 0;
+}
+
+body .container .card p {
+  margin-top: 20px;
+}
+
+body .container .card a {
+  text-decoration: none;
+}
+
+body .container .card a:hover {
+  text-decoration: underline;
+}
+
+body .container .card a:visited {
+  color: #4f31f7;
+}
+
+body .container h6 {
+  font-size: 1.2rem;
+  font-weight: 400;
+  margin: 20px;
+}
+
+body .container h6 a {
+  text-decoration: none;
+  color: #4f31f7;
+}
+
+body .container h6 a:hover {
+  text-decoration: underline;
+}
+
+body .container h6 a:visited {
+  color: #4f31f7;
+}
+
+body .container h5 {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+body .container .stickers {
+  font-size: 3rem;
+}
+
+body .container .thanks {
+  font-size: 1.9rem;
+  margin: 30px 0;
+}
+
+body .container h3 {
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+body .container .links {
+  margin: 30px;
+  font-size: 2rem;
+}
+
+body .container .links a {
+  color: #aaa;
+  margin: 0 30px;
+}
+
+body .container .links a:hover {
+  color: #4f31f7;
+  margin: 0 30px;
+}
