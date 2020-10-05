@@ -230,9 +230,10 @@ ol {
 @media (max-width: 730px) {
   #bars {
     position: absolute;
-    top: 0%;
-    right: 10%;
+    top: 1%;
+    right: 1%;
     display: block;
+    padding-top: 0;
   }
   #content {
     display: none;
