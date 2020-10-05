@@ -113,8 +113,11 @@ code {
 }
 
 #bars {
-    padding-top: 20px;
+    padding-top: 15px;
     display: none;
+    width: 40px;
+    
+   
 }
 
 nav li {
