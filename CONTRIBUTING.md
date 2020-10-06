@@ -60,9 +60,8 @@ git pull upstream master
 
 ```
 
-This takes all the changes on this repo and applies them to the fork to keep them in sync.
-
-If anyone needs more detail to understand this, feel free to [@JacksonBates](https://twitter.com/JacksonBates)  :)
+This takes all the changes on this repo and applies them to the fork to keep them in sync
+If you need more detail to understand this, feel free to reach out to [@JacksonBates](https://twitter.com/JacksonBates)  :)
 
 ### ** RULES **: 
 
