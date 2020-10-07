@@ -1,0 +1,37 @@
+body {
+    background-color: #072540;
+  }
+  body
+  {
+    border: 20px;
+    border-style: outset;
+    border-color: #FF00FF; 
+
+    text-align: left;
+    color: #FFFFFF;
+   }
+   h1{
+      color: #FF00FF; 
+   }
+   
+a:link, a:visited {
+
+  background-color: #FFFFFF;
+
+  color: #000000;
+
+  padding: 10px 10px;
+
+  text-align: center; 
+
+  text-decoration: none;
+
+  display: inline-block;
+
+}
+
+a:hover, a:active {
+
+  background-color: Fuchsia;
+
+}
