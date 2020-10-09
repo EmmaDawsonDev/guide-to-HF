@@ -1,0 +1,36 @@
+body{
+    background-color: #f5f1da;
+  }
+  hr{
+  
+    border-style: none;
+    border-top-style: dotted;
+    border-color: grey;
+    border-width: 5px;
+    width: 5%;
+  }
+  
+  h1,h3{
+    color: red;
+    text-align: center;
+  }
+  
+  .btn
+{
+    padding: 30px;
+    text-align: center;
+}
+
+.btn a
+{
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid #000;
+    padding:5px 10px;
+    border-radius: 5px;
+}
+
+p{
+    color: darkorchid;
+}
