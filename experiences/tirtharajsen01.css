@@ -1,0 +1,51 @@
+
+    body {
+        background-color: azure;
+        font-family: 'Dancing Script', cursive;
+        font-size: 30px;
+    }
+
+    h1 {
+        font-family: 'Anton', sans-serif;
+        color: red;
+        margin: 2px auto;
+        border: 5px solid blue;
+        border-radius: 10px;
+        text-align: center;
+    }
+
+    #paraone {
+        border: 6px solid green;
+        border-radius: 6px;
+        padding: 37px;
+        margin: 19px;
+        background-color: gold;
+        color: darkred;
+    }
+
+    #paratwo {
+        border: 6px solid red;
+        border-radius: 6px;
+        padding: 37px;
+        margin: 19px;
+        background-color:lightblue;
+        color: darkviolet;
+    }
+
+    #parathree {
+        border: 6px solid rgb(82, 9, 82);
+        border-radius: 6px;
+        padding: 37px;
+        margin: 19px;
+        background-color:lightpink;
+        color: rgb(15, 106, 136);
+    }
+
+    #fourthpara {
+        border: 6px solid darkorange;
+        border-radius: 6px;
+        padding: 37px;
+        margin: 19px;
+        background-color: lightgoldenrodyellow;
+        color: darkred;
+    }
