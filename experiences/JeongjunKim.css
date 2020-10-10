@@ -1,0 +1,19 @@
+body {
+  background-color: white;
+  background-image: url(https://coolbackgrounds.io/images/backgrounds/index/compute-ea4c57a4.png);
+}
+
+h1,
+h3 {
+  color: white;
+  text-align: center;
+}
+
+#text-container {
+  margin-top: 265px;
+}
+
+#main-link {
+  padding: 30px;
+  color: whitesmoke;
+}

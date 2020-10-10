@@ -1,0 +1,58 @@
+
+body
+{
+    /* background-color: rgba(0, 0, 0, 0.542); */
+    color: white;
+    
+    margin: 0px;
+    padding: 0px;
+    
+    
+}
+body::before
+{
+    content: "";
+    height:   100%;
+    width: 100%;
+    position: absolute;
+    background: url(https://cdn.pixabay.com/photo/2020/10/05/18/49/leaves-5630468_960_720.jpg) no-repeat center center / cover;
+    z-index: -1;
+    opacity: 0.7;
+
+}
+.heading
+{
+    
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    background-color: rgba(0, 128, 0, 0.459);
+    font-size: 35px;
+    font-family: cursive;
+    margin: 0px auto;
+    padding :30px 5px;
+    
+}
+.info
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 100px;
+    padding: 20px;
+    font-size: 23px;
+    background-color: rgba(0, 0, 0, 0.493);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    /* background-color: rgba(0, 128, 0, 0.515); */
+}
+footer{
+    font-size: 20px;
+    display: flex;
+    font-family: cursive;
+    background-color: rgba(0, 0, 0, 0.808);
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+
+}
