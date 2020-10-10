@@ -2,7 +2,7 @@
   --bg-color: #072540;
   --bg-color-lt: #ffffff;
   --text-color-lt: #ffffff;
-  --text-color-dk: #072540;
+  --text-color-dk: #ffffff;
   --highlight-lt: #ff8ae2;
   --highlight-dk: #9c4668;
 
@@ -151,10 +151,11 @@ nav a:hover,
   margin: 40px 5px;
   padding: 15px;
   max-width: 180px;
-  background-color: var(--bg-color-lt);
-  border-radius: 10px;
+  background-color: #0A365C;
+  border-radius: 7px;
   transform: scale(0.9);
   transition: transform 330ms ease-in-out;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .card img {
