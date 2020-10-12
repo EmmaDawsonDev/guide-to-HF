@@ -3,31 +3,28 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
     <title>Hacktoberfest 2020 by Gunwoo</title>
     <link rel="stylesheet" type="text/css" href="gunwoo.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
   </head>
   <body class="body">
-    <h1>Gunwoo KO</h1>
-    <h2>Hello World!</h2>
+  
+    <h1 class="char">My first experience with Hacktoberfest</h1>
+    <h2 class="char">How to know Hacktoberfest</h2>
+    <div class="char">
+      A few weeks ago, I finished my coding bootcamp and I was looking for how I can
+      contribute some open source. </br>One of my colleagues recommends Hacktoberfest, so I am here!
+    </div>
+    <h2 class="char">How to learn React</h2>
+    <div class="char">
+      I feel like studying more about React to become more friendly
+      with web development. </br> A good way to study something new is to go to the
+      official document.
+    </div>
 
-    <a href="https://github.com/gunwooko">GitHub</a>
-    <br />
-    <a href="https://velog.io/@gunwooko">Blog</a>
-
-    <h2>Stack</h2>
-    <ul>
-      <li>
-        Strong: Javascript, React (react-hooks), express.js, MySQL, Sequelize,
-        Styled-component
-      </li>
-      <li>Experienced:AWS(RDS, EC2, S3), Git, Redux</li>
-      <li>
-        Other tools: GitHub, Slack, Zoom, Postman, Visual Studio Code, Notion
-      </li>
-    </ul>
     <div>
-      <div>This is my favorite music when I write code</div>
+      <br>
+      <h2 class="char">This is my favorite music when I write code</h2>
       <iframe
         width="560"
         height="315"
@@ -37,5 +34,22 @@
         allowfullscreen
       ></iframe>
     </div>
+    <a href='https://github.com/gunwooko'  target="_blank">
+      <i class="fab fa-github fa-2x"> @gunwooko</i>
+    </a>
+   
+
+     <script type="text/javascript">
+     const hello = () =>{
+      alert('I am Gunwoo, nice to meet you!');
+     }
+        const char = document.getElementsByClassName('char');
+        for(let i = 0; i < char.length; i++){
+          console.log(char)
+          char[i].addEventListener('click', hello, false)
+        }
+        
+    </script>
+
   </body>
 </html>

@@ -1,13 +1,12 @@
 .body {
   text-align: center;
   line-height: 40px;
+
+  background-repeat: no-repeat;
+  background-image: linear-gradient(to bottom, rgb(92, 0, 128) 0%, white 100%);
+  background-blend-mode: color-dodge;
 }
 
-a {
-  text-decoration: none;
-  color: darkcyan;
-}
-
-ul {
-  list-style: none;
+i:hover {
+  color: blueviolet;
 }
