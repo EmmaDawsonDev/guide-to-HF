@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shaan Alam</title>
+  <link rel="stylesheet" href="./codeshaan.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  <main class="wrapper">
+
+    <!-- Showcase section -->
+    <div class="showcase">
+      <!-- showcase background -->
+      <svg width="100" height="1024" viewBox="0 0 100 1024" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M-88 5.93609C-88 5.93609 658.492 -452.92 751.804 5.93609C845.116 464.792 448.541 596.751 751.804 1029.62C1055.07 1462.48 -88 1029.62 -88 1029.62V5.93609Z" fill="#44A2E6"/>
+      </svg>
+
+      <a href="../index.html" title="Home" class="back-link"><i class="fa fa-chevron-left" aria-hidden="true"></i>
+      </a>
+
+      <div class="text">
+        <h1 
+        data-aos="fade-right" 
+        data-aos-delay="50"
+        data-aos-duration="1000"
+        data-aos-easing="ease-in-out">
+        Shaan Alam
+      </h1>
+      
+      <p>I create <span id="text"></span>  with 💖</p>
+      </div>
+
+    </div>
+
+    <!-- Intro section -->
+    <div class="intro">
+      <div class="intro-text">
+        <h1 
+          class="intro-heading"
+          data-aos="fade-left" 
+          data-aos-offset="100"
+          data-aos-delay="10"
+          data-aos-duration="500"
+          data-aos-easing="ease-in-out">
+          My First Expierence in Hacktober Fest
+        </h1>
+
+        <p
+          data-aos="fade-right" 
+          data-aos-offset="100"
+          data-aos-delay="100"
+          data-aos-duration="1500"
+          data-aos-easing="ease-in-out">
+          Hello guys!!! My name is Shaan Alam. I like Web Development and am learning the same. I know HTML, CSS, JavaScript & React and currently learning NodeJS. However, having been familiar with these technologies, this is the first time I am ever contirbuting to the Open Source. I tried contributing earlier some time, but I got overwhelmed by all those information. Hacktober Fest provided me a chance to start contributing to Open Source to which I will be forever grateful for. I hope everyone is enjoying & learning in Hacktober Fest. Keep Learning...
+        </p>
+        <blockquote  data-aos="fade-right" 
+          data-aos-offset="100"
+          data-aos-delay="100"
+          data-aos-duration="1500"
+          data-aos-easing="ease-in-out">Happy Coding!!</blockquote>
+      </div>
+      <div class="social">
+        <a href="http://instagram.com/shaancodes"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+        <a href="https://github.com/codeshaan/"><i class="fa fa-github" aria-hidden="true"></i></a>
+        <a href="https://www.facebook.com/shaan.alam.1004"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+        <a href="https://twitter.com/shaancodes" class="twitter"
+          ><i class="fa fa-twitter" aria-hidden="true"></i
+        ></a>
+      </div>
+
+    </div>
+
+
+  </main>
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    // initialize AOS
+    AOS.init({
+      easing: 'ease'
+    });
+
+    // typing animation
+    const typed = new Typed('#text', {
+      strings: ['Landing Pages', "React Apps", "Figma Designs", "Caffeine from Code"],
+      loop: true,
+      typeSpeed: 20,
+      backDelay: 1000
+    });
+
+  </script>
+</body>
+</html>
