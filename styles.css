@@ -139,6 +139,12 @@ nav a:hover,
   border-bottom-right-radius: 5px;
 }
 
+.navhome{
+      position: fixed;
+      top : 0;
+
+  }
+
 /* Card styling*/
 
 .cards {
