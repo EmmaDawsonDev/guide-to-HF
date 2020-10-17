@@ -1,0 +1,5 @@
+{
+    "git.autofetch": true,
+    "git.allowForcePush": true,
+    "git.fetchOnPull": true
+}
