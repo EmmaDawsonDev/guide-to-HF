@@ -1,0 +1,49 @@
+body{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background:#667e83 ;
+}
+a{
+    text-align: center;
+    
+    display: inline-block;
+   
+    text-decoration: none;
+    color: #000000;
+    background: #0bffaa;
+    padding: 30px 40px;
+    transition: background .3s;
+    border-radius: 5px;
+   
+}
+a:hover{
+    color: #ffffff;
+    background: #01bb93;
+}
+h1{
+   color: white;
+    font-variant: small-caps;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   display: inline-block;
+  background:#667e83;
+    font-size: 70px;
+    width: 70%;
+    text-align: center;
+}
+p{ 
+  font-variant: small-caps;
+  font-family: 'Arial Narrow','Franklin Gothic Medium','Times New Roman' , Arial, sans-serif;
+  color:white;
+    width: 60%;
+    font-size: large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+p:hover{
+  
+  color:#19f3f3;
+  box-shadow: 4px 4px 4px;
+  
+}

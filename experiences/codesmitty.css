@@ -1,0 +1,145 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url("../img/coffeeBw.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.wrapper {
+  margin: auto;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column nowrap;
+  width: 100%;
+}
+
+.title {
+  align-content: center;
+  padding: 50px 0;
+  text-align: center;
+  margin: auto;
+  width: 50%;
+}
+
+.content-container {
+  margin: auto;
+
+  width: 50%;
+  font-size: 24px;
+}
+
+.content {
+  width: 100%;
+  text-align: center;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 20px;
+  opacity: 0.9;
+  color: white;
+  font-weight: 700;
+}
+
+#paragraph-one {
+}
+
+.social-media {
+  position: relative;
+  width: 97%;
+  height: 150px;
+  margin: auto;
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 20px 0;
+  color: white;
+  border-radius: 20px;
+  text-align: center;
+  margin-top: 50px;
+  overflow: hidden;
+}
+
+
+
+ul {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  margin-top: 50px;
+}
+
+ul li {
+  list-style: none;
+}
+
+ul li a {
+  position: relative;
+  width: 60px;
+  height: 60px;
+  display: block;
+  text-align: center;
+  margin: 0 10px;
+  border-radius: 50%;
+  padding: 6px;
+  box-sizing: border-box;
+  text-decoration: none;
+  box-shadow: 0 10px 15px rgba(138, 136, 136, 0.555);
+  background: linear-gradient(0deg, #ddd, #fff);
+  transition: 0.5s;
+}
+
+ul li a:hover {
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  text-decoration: none;
+}
+
+ul li a .fa {
+  width: 100%;
+  height: 100%;
+  display: block;
+  background: linear-gradient(0deg, #fff, #ddd);
+  border-radius: 50%;
+  line-height: calc(60px - 12px);
+  font-size: 24px;
+  color: #a0a0a0;
+  transition: 0.5s;
+}
+
+ul li:nth-child(1) a:hover .fa {
+  color: #2e467e;
+}
+
+ul li:nth-child(2) a:hover .fa {
+  color: #00aced;
+}
+
+ul li:nth-child(3) a:hover .fa {
+  color: #2325a1;
+}
+
+ul li:nth-child(4) a:hover .fa {
+  color: #e4405f;
+}
+
+#icon-link {
+  padding: 0;
+  margin: auto;
+  margin-top: 10px;
+  text-decoration:none;
+}
+#icon-link:focus{
+    text-decoration: none;
+}
+
+#icon-link:visited{
+    text-decoration: none;
+    color:black;
+}
+
+#link-text{
+    color:white;
+}

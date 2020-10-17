@@ -92,13 +92,16 @@ p {
 
 section {
     text-align: center;
-    padding-top: 50px;
+    padding-top: 20px;
 }
 
 section:last-of-type {
     margin-bottom: 50px;
 }
 
+code {
+  background-color: #9c4668;
+}
 
 /*Navigation styling*/
 #content {
@@ -110,18 +113,21 @@ section:last-of-type {
 }
 
 #bars {
-    padding-top: 20px;
+    padding-top: 15px;
     display: none;
+    width: 40px;
+    
+   
 }
 
 nav li {
-    margin: 20px;
+    margin-top: 15px;
 }
 
 nav a {
     color: white;
     text-decoration: none;
-    padding: 1.4em 1.3em 0.8em;
+    padding: 1em 0.8em 0.6em;
 }
 
 nav a:hover,
@@ -214,19 +220,40 @@ ol {
   margin-top: 20px;
 }
 
+/*Pull page*/
+#hf-label {
+ border-radius: 30px;
+ height: 15px;
+}
+
 
 @media (max-width: 730px) {
-    #bars {
-        position: absolute;
-        top: 0%;
-        right: 10%;
-        display: block;
-    }
-    #content {
-        display: none;
-        text-align: center;
-        padding-top: 50px;
-    }
+  #bars {
+    position: absolute;
+    top: 1%;
+    right: 1%;
+    display: block;
+    padding-top: 0;
+  }
+  #content {
+    display: none;
+    text-align: center;
+    padding-top: 50px;
+  }
+
+  nav li {
+    margin: 0;
+  }
+  
+  nav a {
+    display: block;
+    padding: 1em;
+  }
+  
+  .nav-active, nav a:hover {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+  }
 }
 
 @media screen and (max-width: 600px) {

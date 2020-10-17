@@ -14,13 +14,15 @@
     <div class="container">
         <header>
             <nav>
-                <img id="bars" src="./img/icon-hamburger.svg" alt="">
+                <img id="bars" src="./img/hamburger-icon.svg" alt="">
 
                 <ul id="content">
                     <li><a href="index.html" >HOME</a></li>
                     <li><a href="contribute.html">HOW TO CONTRIBUTE</a></li>
                     <li><a href="fork.html" class="nav-active">FORK THE CODE</a></li>
                     <li><a href="pull.html">MAKE A PULL REQUEST</a></li>
+                    <li><a href="https://github.com/emmalearnscode/guide-to-HF" target="_blank">GITHUB</a></li>
+
                 </ul>
             </nav>
             <h1><span id="the">THE</span>
@@ -41,10 +43,24 @@
                         <img class="GH-img" src="./img/repo-clone-link.png" alt="Image highlighting how to copy the github link ready for cloning">
                     </li>
                     <li>In the Command line navigate to the directory you want your code to be stored in. This is done with the "cd directory-name" command.</li>
-                    <li>Once inside the directory type git clone URL to clone the repository to your computer.
+                    <li>Once inside the directory type <code>git clone URL</code>  to clone the repository to your computer.
                         <img class="GH-img" src="./img/repo-git-clone.png" alt="Image showing the command line command git clone URL">
                     </li>
+                    <li><code>$ git checkout -b branchname</code>  to create a branch</li>
+                    <li><code>$ git remote add upstream git@github.com:emmalearnscode/guide-to-HF.git</code>  to create upstream</li> <br>
+                    <li>
+                      <code>$ git remote -v</code>  should result <br>
+                      <code>
+                        origin	git@github.com:<username>/guide-to-HF.git (fetch)
+                        origin	git@github.com:<username>/guide-to-HF.git (push)
+                        upstream	git@github.com:emmalearnscode/guide-to-HF.git (fetch)
+                        upstream	git@github.com:emmalearnscode/guide-to-HF.git (push)
+                      </code>
+                    </li>
+                    <li><code>$ git pull upstream master</code>to ensures you're working from the latest to avoid conflicts.</li>
                     <li>You can now open the files on your machine and make all your changes.</li>
+                    <li><code>$ git commit -m "commit message"</code> </li>
+                    <li><code>$ git push origin HEAD </code></li>
                     <li>Once you're done, head over to <a href="pull.html">Pull Requests</a> to find out how to add your changes to the original repository.</li>
                 </ol>
 

@@ -1,0 +1,30 @@
+body{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgb(119, 239, 245);
+}
+a{
+    text-align: center;
+    display: block;
+    color: black;
+    background: rgb(148, 77, 241);
+    transition: background .2s;
+    border-radius: 2px;
+}
+a:hover{
+    color: rgb(210, 253, 17);
+    background: rgb(103, 103, 245);
+}
+h3{
+    font-family: 'Comic Sans MS', 'Arial Narrow', Arial, sans-serif;
+    font-size: 5rem;
+    width: 90%;
+    text-align: center;
+}
+p{
+    width: 60%;
+    font-size: large;
+    font-family: 'sans-serif', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}

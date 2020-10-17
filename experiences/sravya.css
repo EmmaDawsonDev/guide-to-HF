@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: purple;
+  }
+  html {
+    font-size: 70%;
+    font-family: "Courier New";
+  }
+  body {
+    text-align: center;
+  }
+  .button {
+    margin-top: 3rem;
+  }
+  #indexpage {
+    text-decoration: none;
+    font-size: 4rem;
+    color:cyan;
+  }
+  .sravya {
+    padding-top: 6rem;
+    width: 50%;
+    margin: 0 auto;
+  }
+  a{   
+    font-size: 3rem;
+    text-align: center;
+    display: block;
+    padding: 5px 25px;
+    color:black;
+    text-decoration: none;
+    background-color: darkgray;
+    transition: background .3s;
+    border-radius: 18px;
+
+ }
+  

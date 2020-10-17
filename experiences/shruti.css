@@ -1,0 +1,70 @@
+#top-bar{
+            background-color:#294A6C;
+            width:1050;
+            margin:0 auto;
+            height:154px;
+                       
+        }
+                    
+        #logo{
+            border-right: 10px #000000 solid;
+            border-left: 10px #000000 solid;
+            border-top: 10px #000000 solid;
+            border-bottom: 10px #000000 solid;
+            float:left;
+            width:150px;
+            margin-right:10px;
+                      
+        }
+                   
+
+        #text{
+            font-weight:bold;
+            font-size:300%;
+            margin-top:80px;
+            margin-left:5px;
+            position:relative;
+            font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;                    
+        }
+        #tct{
+            font-weight:bold;
+            font-size:200%;
+            font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;                    
+        }
+        #git{
+            width:100px;
+            height:100px;
+        }
+        #lnkd{
+            border-left:100px;
+            width:100px;
+            height:100px;
+        }
+         #faceb{
+            border-left:200px;
+            width:100px;
+            height:100px;
+        }
+        #home{
+            border-left:500px;
+            width:100px;
+            height:100px;
+        }
+
+        .clear{
+            clear:both;
+        }
+
+                    
+
+        .intro{
+            background-color:#526F8C;
+            width:100%;
+            height:210px;
+            font-family:'Piazzolla', serif;
+            font-size:20px;
+            font-weight:bold;
+        }
+
+                
+                

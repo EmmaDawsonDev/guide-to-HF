@@ -1,0 +1,26 @@
+body {
+    background-color: red;
+  }
+  body
+  {border-style: dashed;
+    text-align: center;
+   }
+   h1{
+      color: black; 
+   }
+   
+a:link, a:visited {
+
+  background-color: black;
+
+  color: white;
+
+  padding: 14px 25px;
+
+  text-align: center; 
+
+  text-decoration: none;
+
+  display: inline-block;
+
+}

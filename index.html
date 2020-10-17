@@ -1,86 +1,581 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>The Super-newbie coder's guide to Hacktoberfest</title>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@900&family=Nunito&display=swap" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@900&family=Nunito&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="styles.css" />
     <script src="scripts.js" defer></script>
-</head>
+  </head>
 
-<body>
-
+  <body>
     <div class="container">
-        <header>
-            <nav>
-                <img id="bars" src="./img/icon-hamburger.svg" alt="">
+      <header>
+        <nav>
+          <img id="bars" src="./img/hamburger-icon.svg" alt="" />
 
-                <ul id="content">
-                    <li><a href="index.html" class="nav-active">HOME</a></li>
-                    <li><a href="contribute.html">HOW TO CONTRIBUTE</a></li>
-                    <li><a href="fork.html">FORK THE CODE</a></li>
-                    <li><a href="pull.html">MAKE A PULL REQUEST</a></li>
-                </ul>
-            </nav>
-            <h1>
-                <span id="the">THE</span> <br /><span id="super">Super-Newbie Coder's</span
+          <ul id="content">
+            <li><a href="index.html" class="nav-active">HOME</a></li>
+            <li><a href="contribute.html">HOW TO CONTRIBUTE</a></li>
+            <li><a href="fork.html">FORK THE CODE</a></li>
+            <li><a href="pull.html">MAKE A PULL REQUEST</a></li>
+            <li>
+              <a
+                href="https://github.com/emmalearnscode/guide-to-HF"
+                target="_blank"
+                >GITHUB</a
+              >
+            </li>
+          </ul>
+        </nav>
+        <h1>
+          <span id="the">THE</span> <br /><span id="super"
+            >Super-Newbie Coder's</span
           >
           <br />GUIDE TO <br /><span>Hacktoberfest</span>
-            </h1>
-        </header>
+        </h1>
+      </header>
 
-        <main>
-            <section class="intro">
-                <p>
-                    If you're new to coding then Hacktoberfest can seem overwhemling the first time you take part. This website is here to help you if you don't know where to start and are feeling frustrated trying to find repos and issues which are easy enough to work on,
-                    even for first-timers. This is a crowd sourced project by Hacktoberfest Newbies by Hacktoberfest newbies.
-                </p>
-            </section>
+      <main>
+        <section class="intro">
+          <p>
+            If you're new to coding then Hacktoberfest can seem overwhemling the
+            first time you take part. This website is here to help you if you
+            don't know where to start and are feeling frustrated trying to find
+            repos and issues which are easy enough to work on, even for
+            first-timers. This is a crowd sourced project by Hacktoberfest
+            Newbies by Hacktoberfest newbies.
+          </p>
+        </section>
 
-            <section class="Experiences">
-                <h2>Our Experiences</h2>
-                <p>Read about our experiences as first-timers.</p>
-                <p>
-                    Feel free to add your own as one of your pull requests for Hacktoberfest.
-                </p>
-                <div class="cards">
+        <section class="Experiences">
+          <h2>Our Experiences</h2>
+          <p>Read about our experiences as first-timers.</p>
+          <p>
+            Feel free to add your own as one of your pull requests for
+            Hacktoberfest.
+          </p>
+
+          <div class="cards">
+            <!-- <div class="card">
+                        <a href="./experiences">
+                            <img src="./img/card-img" alt="placeholder" />
+                            <h3 class="title"></h3>
+                            <p class="description">by </p>
+                        </a>
+                    </div> -->
+
                     <div class="card">
-                        <a href="#">
-                            <img src="./img/placeholder-img.jpg" alt="placeholder" />
-                            <h3 class="title">Title of Post</h3>
-                            <p class="description">by Name</p>
+                        <a href="./experiences/ana-vela.html">
+                            <img src="./img/card-img/code.jpg" alt="placeholder" />
+                            <h3 class="title">How to prepare for Hacktoberfest</h3>
+                            <p class="description">by Ana Vela</p>
                         </a>
                     </div>
 
                     <div class="card">
-                        <a href="#">
-                            <img src="./img/placeholder-img.jpg" alt="placeholder" />
-                            <h3 class="title">Title of Post</h3>
-                            <p class="description">by Name</p>
+                        <a href="./experiences/Rutuja.html">
+                            <img src="./img/card-img/triangles-1430105_640.png" alt="placeholder" />
+                            <h3 class="title">Make a better community by helping others</h3>
+                            <p class="description">by Rutuja</p>
                         </a>
                     </div>
 
                     <div class="card">
-                        <a href="#">
-                            <img src="./img/placeholder-img.jpg" alt="placeholder" />
-                            <h3 class="title">Title of Post</h3>
-                            <p class="description">by Name</p>
+                        <a href="./experiences/bhawanachaudhary.html">
+                            <img src="./img/card-img/traffic-sign-809006_640.jpg" alt="placeholder" />
+                            <h3 class="title">Contribute towards open source development</h3>
+                            <p class="description">by Bhawana Chaudhary</p>
                         </a>
                     </div>
 
                     <div class="card">
-                        <a href="#">
-                            <img src="./img/placeholder-img.jpg" alt="placeholder" />
-                            <h3 class="title">Title of Post</h3>
-                            <p class="description">by Name</p>
+                        <a href="./experiences/donghun.html">
+                            <img src="./img/card-img/spyware-2319403_640.jpg" alt="placeholder" />
+                            <h3 class="title">Valuable experience</h3>
+                            <p class="description">by Donghun</p>
+                        </a>
+                    </div>
+
+                    <div class="card">
+                        <a href="./experiences/sravya.html">
+                            <img src="./img/card-img/home-office-336373_640.jpg" alt="placeholder" />
+                            <h3 class="title">First Hacktoberfest</h3>
+                            <p class="description">by Sravya</p>
+                        </a>
+                    </div>
+
+                    <div class="card">
+                        <a href="./experiences/red-drive.html">
+                            <img src="./img/card-img/hackto.jpg" alt="placeholder" />
+                            <h3 class="title">Help others</h3>
+                            <p class="description">by Red-drive </p>
+                        </a>
+                    </div>
+
+                    <div class="card">
+                        <a href="./experiences/Archi.html">
+                            <img src="./img/card-img/geometry-1044090_640.jpg" alt="placeholder" />
+                            <h3 class="title">First HacktoberFest experience</h3>
+                            <p class="description">by Archi</p>
+                        </a>
+                    </div> 
+
+                    <div class="card">
+                        <a href="./experiences/Anmol-Raj.html">
+                            <img src="./img/card-img/dosomething.jpg" alt="placeholder" />
+                            <h3 class="title">Three tips for success</h3>
+                            <p class="description">by Anmol Raj</p>
+                        </a>
+                    </div>
+
+                    <div class="card">
+                        <a href="./experiences/rudratalur.html">
+                            <img src="./img/card-img/coding-1841550_640.jpg" alt="placeholder" />
+                            <h3 class="title">Learning is always an amazing experience</h3>
+                            <p class="description">by Rudraswamy</p>
+                        </a>
+                    </div>
+
+                    <div class="card">
+                        <a href="./experiences/KumarSwaraj.html">
+                            <img src="./img/card-img/code.jpg" alt="placeholder" />
+                            <h3 class="title">Make sure your changes can be added</h3>
+                            <p class="description">by Swaraj Kumar</p>
+                        </a>
+                    </div>
+
+
+                    <div class="card">
+                        <a href="./experiences/vaish.html">
+                            <img src="./img/card-img/triangles-1430105_640.png" alt="placeholder" />
+                            <h3 class="title">First time Hacktoberfest</h3>
+                            <p class="description">by Vaish</p>
+                        </a>
+                    </div>
+
+                    <div class="card">
+                        <a href="./experiences/aryan.html">
+                            <img src="./img/card-img/traffic-sign-809006_640.jpg" alt="placeholder" />
+                            <h3 class="title">The smallest of contributions made collectively makes the biggest difference</h3>
+                            <p class="description">by Aryan</p>
+                        </a>
+                    </div>
+
+                    <div class="card">
+                        <a href="./experiences/codeshaan.html">
+                            <img src="./img/card-img/spyware-2319403_640.jpg" alt="placeholder" />
+                            <h3 class="title">Chance to contribute to open source</h3>
+                            <p class="description">by codeshaan</p>
+                        </a>
+                    </div>
+
+                    <div class="card">
+                        <a href="./experiences/henry.html">
+                            <img src="./img/card-img/home-office-336373_640.jpg" alt="placeholder" />
+                            <h3 class="title">Learn and Apply skills in the real world</h3>
+                            <p class="description">by Henry</p>
+                        </a>
+                    </div>
+
+                    <div class="card">
+                        <a href="./experiences/vaibhav-singh.html">
+                            <img src="./img/card-img/geometry-1044090_640.jpg" alt="placeholder" />
+                            <h3 class="title">Dig through GitHub pages to learn</h3>
+                            <p class="description">by Vaibav Singh</p>
+                        </a>
+                    </div>
+
+                    <div class="card">
+                        <a href="./experiences/song-giung.html">
+                            <img src="./img/card-img/dosomething.jpg" alt="placeholder" />
+                            <h3 class="title">First time Hacktoberfest</h3>
+                            <p class="description">by Song Giung</p>
+                        </a>
+                    </div>
+
+                    <div class="card">
+                        <a href="./experiences/Yash-tyagi.html">
+                            <img src="./img/card-img/code.jpg" alt="placeholder" />
+                            <h3 class="title">Search for simple issues</h3>
+                            <p class="description">by Yash Tyagi</p>
+                        </a>
+                    </div>
+
+                    <div class="card">
+                        <a href="./experiences/yevinKwon.html">
+                            <img src="./img/card-img/triangles-1430105_640.png" alt="placeholder" />
+                            <h3 class="title">Opporitunity for newbies</h3>
+                            <p class="description">by yevinKwon</p>
+                        </a>
+                    </div>
+
+                    <div class="card">
+                        <a href="./experiences/JaeHoonLim.html">
+                            <img src="./img/card-img/traffic-sign-809006_640.jpg" alt="placeholder" />
+                            <h3 class="title">Find contributions to match your interests</h3>
+                            <p class="description">by Jae Hoon Lim</p>
+                        </a>
+                    </div>
+
+                    <div class="card">
+                        <a href="./experiences/tirtharajsen01.html">
+                            <img src="./img/card-img/spyware-2319403_640.jpg" alt="placeholder" />
+                            <h3 class="title">Search for beginner friendly projects</h3>
+                            <p class="description">by Tirtharaj Sen</p>
+                        </a>
+                    </div>
+
+                    <div class="card">
+                        <a href="./experiences/pjaeyoung.html">
+                            <img src="./img/card-img/home-office-336373_640.jpg" alt="placeholder" />
+                            <h3 class="title">Give it a try!</h3>
+                            <p class="description">by P Jae Young </p>
+                        </a>
+                    </div>
+
+                    <div class="card">
+                        <a href="./experiences/JeongjunKim.html">
+                            <img src="./img/card-img/geometry-1044090_640.jpg" alt="placeholder" />
+                            <h3 class="title">Keep trying even if it's hard</h3>
+                            <p class="description">by Jeongjun Kim</p>
+                        </a>
+                    </div>
+
+                    <div class="card">
+                        <a href="./experiences/JinSeop-Shin.html">
+                            <img src="./img/card-img/dosomething.jpg" alt="placeholder" />
+                            <h3 class="title">First contribution</h3>
+                            <p class="description">by JinSeop-Shin</p>
+                        </a>
+                    </div>
+
+                    <div class="card">
+                        <a href="./experiences/jin-taeyang.html">
+                            <img src="./img/card-img/coding-1841550_640.jpg" alt="placeholder" />
+                            <h3 class="title">Fun event</h3>
+                            <p class="description">by Jin TaeYang</p>
+                        </a>
+                    </div>
+
+                    <div class="card">
+                        <a href="./experiences/demirsergen.html">
+                            <img src="./img/card-img/code.jpg" alt="placeholder" />
+                            <h3 class="title">Everyone can contribute in unexpected ways</h3>
+                            <p class="description">by Demir Sergen</p>
+                        </a>
+                    </div>
+
+                    <div class="card">
+                        <a href="./experiences/dhananjaynarayan.html">
+                            <img src="./img/card-img/triangles-1430105_640.png" alt="placeholder" />
+                            <h3 class="title">#100DaysOfCode and Hacktoberfest</h3>
+                            <p class="description">by Dhananjay Narayan</p>
+                        </a>
+                    </div>
+
+                    <div class="card">
+                        <a href="./experiences/Anurag.html">
+                            <img src="./img/card-img/traffic-sign-809006_640.jpg" alt="placeholder" />
+                            <h3 class="title">Learn from friends</h3>
+                            <p class="description">by Anurag</p>
+                        </a>
+                    </div>
+
+                    <div class="card">
+                        <a href="./experiences/ahhzaky.html">
+                            <img src="./img/card-img/spyware-2319403_640.jpg" alt="placeholder" />
+                            <h3 class="title">About me</h3>
+                            <p class="description">by Ahhzaky</p>
+                        </a>
+                    </div>
+
+                    <div class="card">
+                        <a href="./experiences/sa888-pm.html">
+                            <img src="./img/card-img/home-office-336373_640.jpg" alt="placeholder" />
+                            <h3 class="title">Amazing and educative experience</h3>
+                            <p class="description">by sa888-pm</p>
+                        </a>
+                    </div>
+
+                    <div class="card">
+                        <a href="./experiences/aditya.html">
+                            <img src="./img/card-img/geometry-1044090_640.jpg" alt="placeholder" />
+                            <h3 class="title">My first steps into Hacktoberfest</h3>
+                            <p class="description">by Aditya</p>
+                        </a>
+                    </div>
+
+                    <div class="card">
+                        <a href="./experiences/roshan.html">
+                            <img src="./img/card-img/coding-1841550_640.jpg" alt="placeholder" />
+                            <h3 class="title">Don't spam</h3>
+                            <p class="description">by Roshan</p>
+                        </a>
+                    </div>
+
+                    <div class="card">
+                        <a href="./experiences/Suvesh.html">
+                            <img src="./img/card-img/code.jpg" alt="placeholder" />
+                            <h3 class="title">First Hacktoberfest</h3>
+                            <p class="description">by Suvesh</p>
+                        </a>
+                    </div>
+
+                    <div class="card">
+                        <a href="./experiences/Aisha.html">
+                            <img src="./img/card-img/triangles-1430105_640.png" alt="placeholder" />
+                            <h3 class="title">Believe in yourself</h3>
+                            <p class="description">by Aisha</p>
+                        </a>
+                    </div>
+
+                    <div class="card">
+                        <a href="./experiences/waltzbucks.html">
+                            <img src="./img/card-img/traffic-sign-809006_640.jpg" alt="placeholder" />
+                            <h3 class="title">Beginners can give it a try</h3>
+                            <p class="description">by Waltzbucks</p>
+                        </a>
+                    </div>
+
+                    <div class="card">
+                        <a href="./experiences/d-folt.html">
+                            <img src="./img/card-img//spyware-2319403_640.jpg" alt="placeholder" />
+                            <h3 class="title">Improve your knowledge</h3>
+                            <p class="description">by D-folt</p>
+                        </a>
+                    </div>
+
+                    <div class="card">
+                        <a href="./experiences/vaibhavTripathi.html">
+                            <img src="./img/card-img/home-office-336373_640.jpg" alt="placeholder" />
+                            <h3 class="title">Things to remember</h3>
+                            <p class="description">by Vaibhav Tripathi</p>
+                        </a>
+                    </div>
+
+                    <div class="card">
+                        <a href="./experiences/priyankar.html">
+                            <img src="./img/card-img/geometry-1044090_640.jpg" alt="placeholder" />
+                            <h3 class="title">A good start to a life-long journey</h3>
+                            <p class="description">by Priyanka</p>
+                        </a>
+                    </div>
+
+                    <div class="card">
+                        <a href="./experiences/Amankazz.html">
+                            <img src="./img/card-img/coding-1841550_640.jpg" alt="placeholder" />
+                            <h3 class="title">Great initiative to start open source</h3>
+                            <p class="description">by Amankazz</p>
+                        </a>
+                    </div>
+
+                    <div class="card">
+                        <a href="./experiences/sarthak_agg.html">
+                            <img src="./img/card-img/code.jpg" alt="placeholder" />
+                            <h3 class="title">Search for "Good first issue" tags</h3>
+                            <p class="description">by Sarthak Aggarwal</p>
+                        </a>
+                    </div>
+
+                    <div class="card">
+                        <a href="./experiences/codesmitty.html">
+                            <img src="./img/card-img/spyware-2319403_640.jpg" alt="placeholder" />
+                            <h3 class="title">Make useful Pull Requests</h3>
+                            <p class="description">by Codesmitty</p>
+                        </a>
+                    </div>
+
+                    <div class="card">
+                        <a href="./experiences/Ramlanisagar.html">
+                            <img src="./img/card-img/code.jpg" alt="placeholder" />
+                            <h3 class="title">open source developers are supportive</h3>
+                            <p class="description">by Sagar Ramlani</p>
+                        </a>
+                    </div>
+
+                    <div class="card">
+                        <a href="./experiences/amoghrajesh.html">
+                            <img src="./img/card-img/triangles-1430105_640.png" alt="placeholder" />
+                            <h3 class="title">There's something for everyone!</h3>
+                            <p class="description">by Amogh Rajesh</p>
+                        </a>
+                    </div>
+
+                    <div class="card">
+                        <a href="./experiences/ninjaMandy.html">
+                            <img src="./img/card-img/home-office-336373_640.jpg" alt="placeholder" />
+                            <h3 class="title">You don't need to be great to take part</h3>
+                            <p class="description">by ninjaMandy</p>
+                        </a>
+                    </div>
+
+                    <div class="card">
+                        <a href="./experiences/shruti.html">
+                            <img src="./img/card-img/geometry-1044090_640.jpg" alt="placeholder" />
+                            <h3 class="title">Start solving problems</h3>
+                            <p class="description">by Shruti</p>
+                        </a>
+                    </div>
+
+                    <div class="card">
+                        <a href="./experiences/sonawane-vivek.html">
+                            <img src="./img/card-img/traffic-sign-809006_640.jpg" alt="placeholder" />
+                            <h3 class="title">Intro to open source</h3>
+                            <p class="description">by Somawane Vivek</p>
+                        </a>
+                    </div>
+
+                    <div class="card">
+                        <a href="./experiences/npawankr1.html">
+                            <img src="./img/card-img/triangles-1430105_640.png" alt="placeholder" />
+                            <h3 class="title">Get your friends involved</h3>
+                            <p class="description">by npawankr1</p>
+                        </a>
+                    </div>
+
+                    <div class="card">
+                        <a href="./experiences/disha-hati.html">
+                            <img src="./img/card-img/coding-1841550_640.jpg" alt="placeholder" />
+                            <h3 class="title">Don't be afraid to ask questions</h3>
+                            <p class="description">by Disha Hati</p>
+                        </a>
+                    </div>
+
+                    <div class="card">
+                        <a href="./experiences/sumit-Ghosh.html">
+                            <img src="./img/card-img/home-office-336373_640.jpg" alt="placeholder" />
+                            <h3 class="title">Find people based on your niche</h3>
+                            <p class="description">by Sumit Ghosh</p>
+                        </a>
+                    </div>
+
+                    <div class="card">
+                        <a href="./experiences/kajori-ghosh.html">
+                            <img src="./img/card-img/traffic-sign-809006_640.jpg" alt="placeholder" />
+                            <h3 class="title">Practice Makes Perfect</h3>
+                            <p class="description">by Kajori Ghosh</p>
+                        </a>
+                    </div>
+
+                    <div class="card">
+                        <a href="./experiences/arpan-abhishek.html">
+                            <img src="./img/card-img/coding-1841550_640.jpg" alt="placeholder" />
+                            <h3 class="title">Tips and Motivation</h3>
+                            <p class="description">by Arpan Abhishek</p>
+                        </a>
+                    </div>
+
+                    <div class="card">
+                        <a href="./experiences/anirban.html">
+                            <img src="./img/card-img/geometry-1044090_640.jpg" alt="placeholder" />
+                            <h3 class="title">Focus on Learning</h3>
+                            <p class="description">by Anirban</p>
+                        </a>
+                    </div>
+
+                    <div class="card">
+                        <a href="./experiences/Ankur-Phukon.html">
+                            <img src="./img/card-img/home-office-336373_640.jpg" alt="placeholder" />
+                            <h3 class="title">Experience of Real World Projects</h3>
+                            <p class="description">by Ankur Phukon</p>
+                        </a>
+                    </div>
+
+                    <div class="card">
+                        <a href="./experiences/Omkar-Nehete.html">
+                            <img src="./img/card-img/spyware-2319403_640.jpg" alt="placeholder" />
+                            <h3 class="title">Explore Github</h3>
+                            <p class="description">by Omkar Nehete</p>
+                        </a>
+                    </div>
+
+                    <div class="card">
+                        <a href="./experiences/rajeev-singh.html">
+                            <img src="./img/card-img/triangles-1430105_640.png" alt="placeholder" />
+                            <h3 class="title">First PR</h3>
+                            <p class="description">by Rajeev Singh</p>
+                        </a>
+                    </div>
+
+                    <div class="card">
+                        <a href="./experiences/shaheer-hasan.html">
+                            <img src="./img/card-img/traffic-sign-809006_640.jpg" alt="placeholder" />
+                            <h3 class="title">Ask questions and Use Google</h3>
+                            <p class="description">by Shaheer Hasan</p>
+                        </a>
+                    </div>
+
+                    <div class="card">
+                        <a href="./experiences/Sheetalsingh23.html">
+                            <img src="./img/card-img/coding-1841550_640.jpg" alt="placeholder" />
+                            <h3 class="title">Try to understand the Process</h3>
+                            <p class="description">by Sheetalsingh23</p>
+                        </a>
+                    </div>
+
+                    <div class="card">
+                        <a href="./experiences/shubham-arora.html">
+                            <img src="./img/card-img/home-office-336373_640.jpg" alt="placeholder" />
+                            <h3 class="title">Learn, Apply, Share</h3>
+                            <p class="description">by Shubham Arora</p>
+                        </a>
+                    </div>
+
+                    <div class="card">
+                        <a href="./experiences/mahlapakk23.html">
+                            <img src="./img/card-img/geometry-1044090_640.jpg" alt="placeholder" />
+                            <h3 class="title">Gather the Courage</h3>
+                            <p class="description">by Mahlapakk23</p>
+                        </a>
+                    </div>
+
+                    <div class="card">
+                        <a href="./experiences/Electromorphous.html">
+                            <img src="./img/card-img/triangles-1430105_640.png" alt="placeholder" />
+                            <h3 class="title">First thoughts on open-source</h3>
+                            <p class="description">by Electromorphous</p>
+                        </a>
+                    </div>
+
+                    <div class="card">
+                        <a href="./experiences/wan.html">
+                            <img src="./img/card-img/code.jpg" alt="placeholder" />
+                            <h3 class="title">Hacktoberfest - 2020 First PR</h3>
+                            <p class="description">by Wan</p>
+                        </a>
+                    </div>
+
+                    <div class="card">
+                        <a href="./experiences/riel_cho.html">
+                            <img src="./img/card-img/home-office-336373_640.jpg" alt="placeholder" />
+                            <h3 class="title">Hello Hacktoberfest!</h3>
+                            <p class="description">by RieL_Cho</p>
+                        </a>
+                    </div>
+
+	                  <div class="card">
+                        <a href="./experiences/candra-perdana.html">
+                            <img src="./img/card-img/hackto.jpg" alt="placeholder" />
+                            <h3 class="title">My First Time HacktoberFest</h3>
+                            <p class="description">by Candra-Perdana</p>
+                        </a>
+                    </div>
+
+                    <div class="card">
+                        <a href="./experiences/rohitkadam.html">
+                            <img src="./img/card-img/dosomething.jpg" alt="placeholder" />
+                            <h3 class="title">Persevere and Learn</h3>
+                            <p class="description">by Rohit Kadam</p>
                         </a>
                     </div>
                 </div>
             </section>
         </main>
     </div>
-</body>
-
+  </body>
 </html>

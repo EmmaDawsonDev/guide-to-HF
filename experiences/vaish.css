@@ -1,0 +1,19 @@
+body {
+  background: rgb(253, 232, 232);
+  color: rgb(194, 42, 42);
+  text-align: center;
+}
+
+body .container {
+  margin: 2rem 7rem;
+}
+
+body .container h1 {
+  font-size: 50px;
+  margin: 20px;
+  
+}
+
+body .container h3 {
+    margin:40px;
+}

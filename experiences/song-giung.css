@@ -1,0 +1,21 @@
+body {
+    background: white;
+    color: black;
+    text-align: center;
+}
+
+body .container {
+    margin: 2rem 7rem;
+  }
+
+  body .container h1 {
+    font-size: 50px;
+    margin: 20px;
+    
+  }
+
+  body .container h3 {
+      margin:40px;
+  }
+
+  
