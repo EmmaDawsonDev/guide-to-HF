@@ -1,0 +1,41 @@
+body {
+  color: #273755;
+  font-size: 20px;
+  margin: 40px;
+}
+
+.button {
+  border: 2px solid #4e648d;
+  text-decoration: none;
+  border-radius: 10px;
+  color: #4e648d;
+  padding: 10px;
+}
+
+h1 {
+  text-align: center;
+  color: #d0e1f9;
+  font-size: 45px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  background-color: #4e648d;
+  margin-top: 40px;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.container {
+  background-color: white;
+  padding: 30px 40px;
+}
+
+li {
+  margin-bottom: 20px;
+}
+
+.footer {
+  margin-top: 40px;
+  text-align: center;
+}
