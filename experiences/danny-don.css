@@ -1,0 +1,129 @@
+:root {
+  /* --page-background-colour: #072540; */
+  --page-background-colour: #183d5d;
+  --heading-colours: #ff8ae2;
+  --paragraph-text-colours: #f0f0f0;
+  --paragraph-hyperlink: #ff8ae2;
+  --paragraph-hyperlink-hover: #9c4668;
+}
+
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--page-background-colour);
+  font-size: 62.5%;
+  font-family: Arial, Helvetica, sans-serif;
+  overflow-x: hidden;
+  padding: 1rem;
+}
+
+.btn {
+  font-size: 1.5rem;
+  padding: 1rem;
+  text-align: center;
+  border: 0.1rem solid var(--heading-colours);
+  /* margin: 1rem; */
+  text-decoration: none;
+  color: #fff;
+  background-color: var(--heading-colours);
+  letter-spacing: 0.1rem;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  font-weight: 700;
+  display: block;
+  width: 10rem;
+  transition: transform 150ms;
+}
+
+.btn:hover {
+  cursor: pointer;
+  box-shadow: 0 0.4rem 1.4rem 0 rgba(252, 59, 188, 0.5);
+  /* transform: translateY(-0.1rem); */
+  transform: translateY(-0.2rem);
+  transition: transform 150ms;
+}
+
+main {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 4rem;
+  margin: 4rem 0;
+  text-align: center;
+}
+
+.intro {
+  position: relative;
+  display: inline-block;
+}
+
+h1::before,
+h1::after {
+  content: "";
+  height: 0.5rem;
+  display: block;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+h1::before {
+  background: var(--heading-colours);
+  width: 200vw;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: -2;
+}
+
+h1::after {
+  height: 101%;
+  background: var(--page-background-colour);
+  left: -1rem;
+  right: -1rem;
+  z-index: -1;
+}
+
+h2 {
+  font-size: 2.5rem;
+  margin-bottom: 3rem;
+  text-align: left;
+}
+
+h1,
+h2 {
+  color: var(--heading-colours);
+}
+
+p {
+  font-size: 1.5rem;
+  line-height: 1.7;
+  margin-bottom: 3rem;
+  color: var(--paragraph-text-colours);
+  text-align: left;
+}
+
+p a {
+  text-decoration: none;
+  color: var(--paragraph-hyperlink);
+}
+
+p a:hover {
+  color: var(--paragraph-hyperlink-hover);
+}
+
+img {
+  border-radius: 5px;
+}
+
+figcaption {
+  color: var(--paragraph-text-colours);
+  font-size: 1rem;
+  margin-bottom: 3rem;
+}
