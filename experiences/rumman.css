@@ -1,0 +1,83 @@
+body {
+
+    margin-top: 10%;
+
+    background-color: #fff5aa;
+
+}
+
+section {
+
+    width: 40%;
+
+    border: 5px solid black;
+
+    border-radius: 50px;
+
+    padding: 5%;
+
+    margin: 3rem auto 0;
+
+    background-color: #eeffd7;
+
+}
+
+section:hover{
+
+    background-color: #fff5bb;
+
+    border: 5px solid rgb(151, 3, 3);
+
+}
+
+section:hover h1{
+
+    color: rgb(151, 3, 3);
+
+}
+
+h1 {
+
+    color: #278a00;
+
+    margin-top: 4rem;
+
+}
+
+#index-link:link, #index-link:visited {
+
+    background-color: #386900;
+
+    color: white;
+
+    padding: 14px 25px;
+
+    text-decoration: none;
+
+    border-radius: 80px;
+
+    border: 4px solid #386900;
+
+}
+
+#index-link:link, #index-link:visited:hover {
+
+    background-color: #ecffd7;
+
+    color: rgb(23, 99, 0);
+
+    padding: 14px 25px;
+
+    text-decoration: none;
+
+    border-radius: 80px;
+
+    border: 4px solid coral;
+
+}
+
+a:hover, a:active {
+
+    background-color: #c4f772;
+
+}
