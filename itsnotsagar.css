@@ -1,0 +1,38 @@
+.body 
+{
+  margin: 0;
+  padding: 0;
+  background-color: BlanchedAlmond;
+  width: 100vw;
+  height: 100vh;
+  text-align: center;
+}
+
+.buttonContainer 
+{
+  margin: 0 auto 0 auto;
+  width: 70%;
+  height: 70%;
+  padding-top: 3rem;
+}
+
+.button 
+{
+  border: 1px solid coral;
+  border-radius: 5px;
+  padding: 10px;
+  text-decoration: none;
+  color: DarkSlateGray;
+}
+
+.button:hover 
+{
+  cursor: pointer;
+  background-color: coral;
+  color: white;
+}
+
+h2 
+{
+  color: chocolate;
+}
