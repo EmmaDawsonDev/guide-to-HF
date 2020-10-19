@@ -1,0 +1,131 @@
+html, body {
+    height: 100%;
+  }
+  
+  .floatleft {
+    float: left;
+  }
+  
+  .floatright {
+    float: right;
+  }
+  
+  .alignleft {
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 15px;
+  }
+  
+  .alignright {
+    float: right;
+    margin-left: 15px;
+    margin-bottom: 15px;
+  }
+  
+  .aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+  }
+  
+  a:focus {
+    outline: 0px solid;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .fix {
+    overflow: hidden;
+  }
+  
+  p {
+    margin: 0 0 15px;
+    color: #444;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Raleway', sans-serif;
+    margin: 0 0 15px;
+    color: #444;
+    font-weight: 500;
+  }
+  
+  h1 {
+    font-size: 48px;
+    line-height: 50px;
+  }
+  
+  h2 {
+    font-size: 38px;
+    line-height: 40px;
+  }
+  
+  
+  a {
+    transition: all 0.3s ease 0s;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #3EC1D5;
+    text-decoration: none;
+  }
+  
+  a:active, a:hover {
+    outline: 0 none;
+  }
+  
+  body {
+    background: #fff none repeat scroll 0 0;
+    color: #444;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    text-align: left;
+    overflow-x: hidden;
+    line-height: 22px;
+  }
+.portfolio .sensei h3{
+	font-weight:700;
+	font-size:25px;
+	color:#173b6c;
+}
+.portfolio .sensei ul{
+	list-style:none;
+	padding:0;
+}
+.portfolio .sensei ul li{
+	padding-bottom:10px;
+}
+.portfolio .sensei ul i{
+	font-size:20px;
+	padding:2px;
+	color:#149ddd;
+}
+.portfolio .sensei p:last-child{
+	margin-bottom:o;
+}
+.mkg-title h2{
+	text-align:center;
+	border:2px ;
+	padding:5px;
+	margin:5px;
+	background-color:#04F4AB ;
+}
+.mkg-title p{
+	font-size: 20px;
+	padding:25px;
+}
+.portfolio .sensei img{
+	padding-bottom:20px;
+	padding-left: 30px;
+
+}
+.para{
+	font-size:20px;
+}
+img{
+    width: 200px;
+    height: 250px;
+}
