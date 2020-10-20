@@ -1,0 +1,34 @@
+body{
+    margin:0px;
+    padding:0px;
+}
+
+.home{
+    font-size: xx-large;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+    padding: 50px 0px 50px 50px;
+    /* border:aqua; */
+    text-decoration: underline;
+}
+
+.display-4{
+    font-weight: bolder;
+    font-family: Georgia;
+    font-size: x-large;
+    color:crimson;
+}
+
+.display-4:hover{
+    color:tomato;
+}
+
+.lead{
+    font-weight: bolder;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: x-large;
+    color:darkgoldenrod;
+}
