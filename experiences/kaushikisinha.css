@@ -1,0 +1,10 @@
+.site-header {
+    background-color: #1bbc9b;
+    color: #ecfdf9;
+    height: 100vh;
+    font-family: mononspace;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
