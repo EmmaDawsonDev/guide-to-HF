@@ -1,0 +1,35 @@
+body{
+  margin: 0;
+  background-image:  linear-gradient(270deg,skyblue,orange,yellow);
+  background-size: cover;
+}
+.head{
+  color: #790c4a;
+  margin-left: 30%;
+  margin-top: 4%;
+  font-family: serif;
+}
+.content{
+  color: #790c5a;
+  margin: 3% 25%;
+  font-weight: bold;
+  font-family: monospace;
+}
+.button1{
+  background-color:#ff5c33;
+  color: #fff;
+  border-radius: 4%;
+  margin-left: 1%;
+  margin-top: 0.5%;
+  width: 15%;
+  height: 15%;
+  border: none;
+}
+@media only screen and (max-width:500px) {
+  .head{
+    margin-left: 15%;
+  }
+  .content{
+    margin-left: 15%;
+  }
+}
