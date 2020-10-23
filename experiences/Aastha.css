@@ -1,0 +1,18 @@
+body {
+  background-color: White;
+}
+
+h1,
+h3 {
+  color: white;
+  text-align: center;
+}
+
+#text-container {
+  margin-top: 265px;
+}
+
+#main-link {
+  padding: 30px;
+  color: whitesmoke;
+}
