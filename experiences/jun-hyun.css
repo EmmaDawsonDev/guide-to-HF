@@ -1,0 +1,16 @@
+body {
+  text-align: center;
+  background-origin: padding-box;
+  padding: 50px;
+}
+
+main {
+  padding-top: 20px;
+  font-size: 18px;
+}
+
+.home-link {
+  text-decoration: none;
+  font-weight: bold;
+  color: #1E90FF;
+}
