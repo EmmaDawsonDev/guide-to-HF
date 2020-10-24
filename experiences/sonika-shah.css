@@ -1,0 +1,90 @@
+
+.header
+{
+    font-family: 'Open Sans Condensed', sans-serif;
+    background-color:#17234D;
+    color: #ffffff;
+    padding: 3%;
+    font-size: 30px;
+    font-weight: 500;
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+.experience
+{
+    background-color: #F6FAFB;
+}
+.footer
+{
+    background-color: #19E8E2;
+    padding: 3%;
+}
+p
+{
+  font-family: 'Open Sans Condensed', sans-serif;
+ 
+}
+
+h2
+{
+  font-family: 'Dancing Script', cursive;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 1.1;
+  color: inherit;
+}
+h1{
+    
+font-family: 'Open Sans Condensed', sans-serif;
+font-size: 60px;
+font-weight: 500;
+text-decoration: underline;
+display:inline;
+}
+
+.fa {  
+    padding: 20px;  
+  text-align: center;  
+    margin: 5px 2px;  
+    font-size: 30px;  
+    width: 50px;  
+  }  
+
+  .fa-linkedin {  
+    background: #007bb5;  
+    color: white;  
+    border-radius: 5%;
+    padding: 1.5%;
+  }  
+  .fa-github {  
+    background: #000000;  
+    color: white;  
+    border-radius: 5%;
+    padding: 1.5%;
+  }  
+  .fa-wordpress {  
+    background: #117AC9;  
+    color: white;  
+    border-radius: 5%;
+    padding: 1.5%;
+  } 
+  button
+  {
+   background-color: #47CF73;
+   color: #000000;
+   border-color: #000000; 
+   border-width: 2px;
+   border-radius: 2%;
+   padding:1.5%;  
+   text-shadow: none;
+    line-height: 1.2;
+   
+    cursor: pointer;
+    white-space: nowrap;
+    text-align: center;
+    font-size: medium;
+    margin: 1%;
+  }
+  button>a{
+      color:#000000;
+  }
