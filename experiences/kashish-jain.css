@@ -1,0 +1,47 @@
+body{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTMArkDtDBsV7chcoxZTsDBr9xUkWH4hd7wpg&amp;usqp=CAU");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1{
+    font-family: 'Lobster', cursive;
+    color: yellow;
+    text-align: center;
+    font-size: 70px;
+}
+
+h3{
+    font-family: 'Lobster', cursive;
+    color: yellow;
+    text-align: center;
+}
+
+.warning {
+    color: orange;
+  }
+  
+  .warning:hover {
+    background: #ff9800;
+    color: white;
+  }
+  .btn {
+    border: none;
+    background-color: inherit;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-block;
+    margin-left:565px;
+  }  
+
+  p{
+      color: violet;
+      text-align: center;
+      font-size: 20px;
+      margin: 0,100px;
+  }
+  .container{
+      margin-left: 300px;
+      margin-right: 300px;
+  }
