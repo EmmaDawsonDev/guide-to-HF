@@ -1,0 +1,99 @@
+/* Same color and theme as front page */
+:root {
+	--bg-color: #183d5d;
+	--bg-color-lt: #ffffff;
+	--text-color-lt: #ffffff;
+	--text-color-dk: #072540;
+	--title-color: #ff8ae2;
+	--link-hover: #9c4668;
+
+	--font-header: 'Inter', sans-serif;
+	--font-normal: 'Nunito', sans-serif;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	background-color: var(--bg-color);
+	font-family: var(--font-normal);
+	color: var(--text-color-lt);
+}
+
+.container {
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	color: var(--title-color);
+	font-family: var(--font-header);
+	border-bottom: 2px solid transparent;
+	transition: transform 330ms ease-in-out;
+}
+
+/*Navigation styling as front page*/
+#content {
+	display: flex;
+	list-style: none;
+	justify-content: space-around;
+	margin: 0;
+	padding: 0;
+}
+
+#bars {
+	padding-top: 15px;
+	display: none;
+	width: 40px;
+}
+
+nav li {
+	margin-top: 15px;
+}
+
+nav a {
+	color: white;
+	text-decoration: none;
+	padding: 1em 0.8em 0.6em;
+}
+
+nav a:hover,
+.nav-active {
+	font-weight: bold;
+	color: var(--link-hover);
+	background-color: var(--bg-color-lt);
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+
+/*My styles */
+main {
+	display: flex;
+	flex-direction: column;
+	margin: 4em 0;
+}
+
+h1 {
+	font-size: 4em;
+}
+
+h2 {
+	font-size: 2.5em;
+	margin-bottom: 0;
+}
+
+section {
+	font-size: 1.5em;
+}
+
+.link {
+	color: var(--text-color-lt);
+}
+.link:visited:hover {
+	color: var(--link-hover);
+}
