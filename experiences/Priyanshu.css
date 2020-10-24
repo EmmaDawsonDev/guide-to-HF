@@ -1,0 +1,48 @@
+header::before{
+    content: '';
+    background: url('https://hacktoberfest.digitalocean.com/assets/og-hf20-cf92d1a3bfc78883ea79dbac1518f1a4f1585e23eb69337ea730447cb70fa777.png') center center/cover;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    opacity: 0.5;
+}
+
+.container{
+    color: rgb(17, 13, 1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+p{
+    font-size: 25px;
+    padding: 40px 40px;
+    text-align: left;
+    font-size: 25px;
+
+}
+h1{
+    margin-top: 0px;
+font-size: 2.4rem;
+text-shadow: rgb(99, 32, 185) 2px 2px 10px;
+
+}
+a{
+    text-decoration: none;
+    background-color: rgb(68, 68, 68);
+    color: white;
+    padding: 7px 20px;
+    border-radius: 5px;
+    
+}
+.btn{
+    height: 30px;
+    margin: 20px 7px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
