@@ -1,0 +1,54 @@
+body {
+  background-color: #E4F9F5
+}
+
+a {
+  color: #11999E;
+  
+  text-decoration: none;
+}
+
+a:hover {
+  color: #519872;
+}
+
+h1 {
+  color: #065c6f;
+  line-height: 2.5;
+  font-family: 'Sacramento', cursive;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: grey;
+  border-width: 10px;
+  width: 10%;
+}
+
+/****************************************************************************************/
+
+.top-div {
+  text-align: center;
+  font-weight: bold;
+}
+
+.header-div {
+  padding: 1%;
+  text-align: center;
+  position: relative;
+
+}
+.content-div {
+  background-color: white;
+  padding-bottom: 2%;
+  padding: 2%;
+  font-style: italic;
+  text-align: center;
+  color: #065c6f;
+
+}
+.footer-div{
+  text-align: center;
+  color: #065c6f;
+}

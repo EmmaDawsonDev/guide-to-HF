@@ -1,0 +1,24 @@
+body {
+    background-color: #26D0CE;
+}
+
+section {
+    width: 80%;
+    margin: 3rem auto 0;
+}
+
+h1 {
+    color: #1A2980;
+    margin-top: 4rem;
+}
+
+#index-link:link, #index-link:visited {
+    background-color: #1A2980;
+    color: white;
+    padding: 14px 25px;
+    text-decoration: none;
+}
+
+a:hover, a:active {
+    background-color: #9089ff;
+}

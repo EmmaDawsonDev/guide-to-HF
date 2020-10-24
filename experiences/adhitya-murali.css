@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  html {
+    font-size: 62.5%;
+    font-family: "Roboto", sans-serif;
+    background: #FC354C;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #0ABFBC, #FC354C);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #0ABFBC, #FC354C); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  }
+  body {
+    text-align: center;
+  }
+  .button {
+    margin-top: 4rem;
+  }
+  #home {
+    text-decoration: none;
+    font-size: 3rem;
+    color: black;
+  }
+  .content {
+    padding-top: 5rem;
+    width: 50%;
+    margin: 0 auto;
+  }
+  img {
+    width: 70%;
+    margin-bottom: 0;
+  }
+  h1{
+    font-size: 7rem;
+    color: white;
+    margin: 20px;
+  }
+
+  h2{
+    font-size: 2rem;
+    color: white;
+    margin: 20px;
+  }
+
+  
+  

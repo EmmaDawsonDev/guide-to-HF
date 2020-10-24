@@ -1,0 +1,51 @@
+.header{
+    text-align: center;
+    color: #993355;
+    font-size: 220%;
+    font-family: fantasy;
+    font-style:inherit;
+    text-align: center;
+    padding:10%;
+    height: 50vmin;
+   
+    
+    background-color: rgb(253, 255, 148);
+    background-size:cover ;
+    
+    
+    background-color: fixed;
+}
+.body{
+    overflow-y:scroll;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-position: center;
+    background-color: rgb(167, 63, 115);
+    
+} 
+
+
+.p{
+    text-align-last: left;
+}
+.parent{
+    
+    overflow: hidden;
+    padding: 5px;
+    margin-bottom: 15px;
+    display: inline-block ;
+    border: 1px ;
+   
+    
+}
+
+.parent .text{
+    font-style: italic;
+    font-family: cursive;
+    width: 100%;
+    float: center;
+}
+
+
+   

@@ -1,0 +1,24 @@
+* {
+	line-height: 1.5;
+	font-family: Roboto;
+}
+
+.emmaLink{ text-align: center; }
+
+.hacktoberfest{ padding-left: 220px; }
+
+.heroArea {
+	background-image: url('../img/rmchardie-img/hero-image.png'); 
+	height: 185px;
+}
+
+.textTitle {
+	margin-top: 50px; 
+	margin-bottom: 50px;
+}
+
+li { line-height: 2; }
+
+.footerPadding { padding: 15px; }
+
+.textCenter { text-align: center; }

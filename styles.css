@@ -92,13 +92,16 @@ p {
 
 section {
     text-align: center;
-    padding-top: 50px;
+    padding-top: 20px;
 }
 
 section:last-of-type {
     margin-bottom: 50px;
 }
 
+code {
+  background-color: #9c4668;
+}
 
 /*Navigation styling*/
 #content {
@@ -110,8 +113,11 @@ section:last-of-type {
 }
 
 #bars {
-    padding-top: 20px;
+    padding-top: 15px;
     display: none;
+    width: 40px;
+    
+   
 }
 
 nav li {
@@ -224,9 +230,10 @@ ol {
 @media (max-width: 730px) {
   #bars {
     position: absolute;
-    top: 0%;
-    right: 10%;
+    top: 1%;
+    right: 1%;
     display: block;
+    padding-top: 0;
   }
   #content {
     display: none;

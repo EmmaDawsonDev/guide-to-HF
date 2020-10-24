@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+    rel="stylesheet"
+    href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+    integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+    crossorigin="anonymous"
+  />
+  <link rel="stylesheet" href="./pjaeyoung.css"/>
+    <title>pjaeyoung Post</title>
+</head>
+<body>
+    <header>
+        <a id='btn-home' href='../index.html'><i class="fas fa-home"></i></a>
+        <h1 id='title'></h1>
+    </header>
+    <section class='nonscroll-contents'>
+        <button class='btn-click'>Click !</button>
+    </section>
+    <section class='scroll-contents hide'>
+        <div class='scroll-item'>
+            Hello ! I was first involved in hacktoberfest.
+        </div>
+        <div class='scroll-item'>
+            And I wrote my first post in html and css.
+        </div>
+        <div class='scroll-item'>
+            This experience was so enjoyable and immersive.
+        </div>
+        <div class='scroll-item'>
+            Don't be scared and give it a try !
+        </div>
+    </section>
+    <footer>
+        <span>@pjaeyoung</span>
+        <a href='https://github.com/pjaeyoung' target='_blank'><i class="fab fa-github"></i></a>
+    </footer>
+    <script>
+        
+        (function Init(){
+            const elTitle = document.querySelector("#title");
+            const elBtnClick = document.querySelector('.btn-click');
+            const elScrollContents = document.querySelector('.scroll-contents');
+            const lastScrollItem = elScrollContents.lastElementChild;
+            
+            const title = 'Enjoy your first Hacktoberfest';
+            let count = 0;
+            const titleLength = title.length;
+            const timer = setInterval(()=>{
+                if(count === titleLength){
+                    clearInterval(timer);
+                    return;
+                }
+                elTitle.textContent += title[count++];
+            },100);
+
+            const scrollAnimation = () => {
+                const timer = setInterval(()=>{
+                    elScrollContents.scrollTop += 1;
+                    if(lastScrollItem.getBoundingClientRect().top <= 270){
+                        clearInterval(timer);
+                    }
+                },1)
+            }
+
+            elBtnClick.addEventListener('click',()=>{
+                elBtnClick.parentElement.classList.add('hide');
+                elScrollContents.classList.remove('hide');
+                scrollAnimation();
+            });
+
+            
+        
+        })();
+       
+    </script>
+</body>
+</html>

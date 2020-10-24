@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 62.5%;
+  font-family: "Roboto", sans-serif;
+}
+body {
+  text-align: center;
+}
+.button {
+  margin-top: 4rem;
+}
+#home {
+  text-decoration: none;
+  font-size: 3rem;
+  color: black;
+}
+.content {
+  padding-top: 5rem;
+  width: 50%;
+  margin: 0 auto;
+}
+img {
+  width: 70%;
+  margin-bottom: 0;
+}
