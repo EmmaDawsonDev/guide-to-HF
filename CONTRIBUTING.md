@@ -1,4 +1,4 @@
-### ** How to Contribute **
+### ** 💻How to Contribute💻 **
 
 Please only contribute if you are a super-newbie coder with experience in html, css and/or javascript.
 
