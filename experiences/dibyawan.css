@@ -1,0 +1,21 @@
+*{
+    background-color:#f9813a;
+    font-family:'Courier New', Courier, monospace;
+    color: #1a1c20;
+}
+.h-1{
+    text-align: center;
+    background-color: #ffd5cd;
+    font-weight: bold;
+}
+#span-1{
+    text-align: end;
+    font-size:large;
+}
+button{
+    cursor: pointer;
+    background-color:#ffd5cd;
+}
+a{
+    background-color:#ffd5cd;
+}
