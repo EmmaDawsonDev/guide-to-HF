@@ -1,0 +1,14 @@
+body{
+    margin:0;
+    text-align: center;
+    font-family: 'Architects Daughter', cursive
+}
+h1{
+    margin:50px auto 0 auto;
+    font-family: 'Sansita Swashed', cursive;
+    color: orange ;
+}
+h2{
+    font-family: 'Sansita Swashed', cursive;
+    color: green ;
+}
