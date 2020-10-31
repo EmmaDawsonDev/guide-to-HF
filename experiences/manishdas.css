@@ -1,0 +1,46 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(58, 11, 77);
+}
+
+#heading{
+    margin-top: 10%;
+    text-align: center;
+    color: azure;
+    padding-bottom: 4px;
+}
+
+.content {
+    color: rgb(138, 138, 138);
+    width: 50%;
+    margin: auto;
+    font-size: 17px;
+    text-align: center;
+}
+
+#line{
+    border: 1px solid rgba(196, 196, 196, 0.541);
+}
+
+#Hacktober{
+    /* text-shadow: 0 0 15px rgba(255, 255, 255, 0.76), 0 0 10px rgba(255, 255, 255, 0.904), 0 0 8px rgb(255, 255, 255);
+    color: rgb(185, 27, 119); */
+    font-size: larger;
+    font-weight: 800;
+    color: rgb(202,99,15);
+}
+
+#home-btn{
+    text-decoration: none;
+    color: rgb(212, 178, 25);
+    font-size: 17px;
+    margin-left: 6px;
+    margin-top: 10px;
+}
