@@ -1,0 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap');
+
+body {
+    text-align: center;
+    background-color: midnightblue;
+    color : #ffa500;
+    font-family: 'Black Han Sans', sans-serif;
+}
