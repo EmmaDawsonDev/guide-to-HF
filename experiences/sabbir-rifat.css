@@ -1,0 +1,25 @@
+body{
+    background: #FF033E;
+}
+
+h1, h2, p{
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1{
+    font-size: 42px;
+}
+h2{
+    font-size: 28px;
+}
+p{
+    font-size: 22px;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}

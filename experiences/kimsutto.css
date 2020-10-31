@@ -1,0 +1,21 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgb(101, 137, 148);
+}
+a{
+    text-align: center;
+    color: black;
+}
+h1{
+    text-shadow: 2px 2px 6px #535353;
+    color : white;
+    text-align: center;
+    font-size: 3rem;
+}
+p{
+    text-align: center;
+    font-size : 1.2rem;
+}
