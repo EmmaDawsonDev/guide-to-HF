@@ -1,0 +1,52 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Grechen+Fuemen&display=swap');
+body{
+    background: #F4F0E1;
+    justify-content: center;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: #000;
+    margin-top: 50px;
+    text-decoration: none;
+    background: #B53A25;
+    padding: 10px 20px;
+    transition: background .3s;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px;
+}
+
+a:hover{
+    color: rgb(255, 255, 255);
+    background:#91A88C ;
+}
+h1{
+    color: #B53A25;
+    font-size: 4rem;
+    font-weight: bold;
+    font-family: 'Grechen Fuemen', cursive;
+}
+
+.container{
+width: 50%;
+margin: auto;
+justify-content: center;
+font-family: 'Bree Serif', serif;
+font-size: 1.5rem;
+color: #91A88C;
+}
+h2{
+    color: #B53A25;
+    margin-top: 50px;  
+    font-size: 1.8rem;
+}
+footer{
+ font-size: 1rem;
+ font-family: 'Bree Serif', serif;
+ color: #91A88C;
+ margin-top: 9%;
+
+}
