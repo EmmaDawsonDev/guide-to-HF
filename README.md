@@ -1,4 +1,8 @@
-# 🎃 Hacktoberfest Guide 🎃
+# This repo is not taking part in hacktoberfest 2021.
+
+# 🎃 Hacktoberfest Guide 2020 🎃
+
+
 
 This repo is hosted at https://emmalearnscode.github.io/guide-to-HF/index.html
 
